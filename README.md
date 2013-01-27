@@ -1,15 +1,17 @@
 INSTALLATION
+
 1. apply schema from ./data directory
 
 2. Turn on module in ./config/application.config.php file - add 'CrunchySignup'
    (IMPORTANT: Please remember to disable any other register-specific modules)
 
 3.  Configure zfcuser module in YOUR_PROJECT_DIRECTORY/config/autoload/zfcuser.global.php
-  - 'user_entity_class' => 'CrunchySignup\Entity\User' 
-  - 'login_after_registration' => false,
-  - 'enable_user_state' => true,
-  - 'default_user_state' => null,
-  - 'allowed_login_states' => array( 1 ),
+'user_entity_class' => 'CrunchySignup\Entity\User' 
+'login_after_registration' => false,
+'enable_user_state' => true,
+'default_user_state' => null,
+'allowed_login_states' => array( 1 )
+
 
 4. Copy CrunchySignup/config/crunchysignup.global.php.dist to ./config/autoload/crunchysignup.global.php 
 
