@@ -23,5 +23,13 @@
     },
     "replace": {
         "Crunchy/CrunchySignup": "self.version"
+    },
+    "autoload": {
+        "psr-0": {
+            "CrunchySignup\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
