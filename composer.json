@@ -1,5 +1,5 @@
 {
-    "name": "Crunchy/CrunchySignup",
+    "name": "crunchy/crunchy-signup",
     "description": "Signup process for ZfcUser with email confirmation",
     "version": "0.0.1",
     "type": "library",
