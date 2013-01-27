@@ -1,0 +1,27 @@
+{
+    "name": "Crunchy/CrunchySignup",
+    "description": "Signup process for ZfcUser with email confirmation",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2", "zfcuser", "user", "signup", "register", "email", "email confirmation"
+    ],
+    "homepage": "https://takeid@bitbucket.org/takeid/crunchysignup.git",
+    "authors": [
+        {
+            "name": "Patrick Sagan",
+            "email": "patryk@takeid.pl",
+            "homepage": "http://www.crunchygroup.com/"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-user": "dev-master"
+    },
+    "suggest": {
+    },
+    "replace": {
+        "Crunchy/CrunchySignup": "self.version"
+    }
+}
