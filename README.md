@@ -1,9 +1,8 @@
 INSTALLATION
 1. apply schema from ./data directory
 
-2. Turn on module in ./config/application.config.php file. 
-   (IMPORTANT: Please remember to disable any other register-specific
-   module like CdliTwoStageSignup)
+2. Turn on module in ./config/application.config.php file - add 'CrunchySignup'
+   (IMPORTANT: Please remember to disable any other register-specific modules)
 
 3.  Configure zfcuser module in YOUR_PROJECT_DIRECTORY/config/autoload/zfcuser.global.php
   - 'user_entity_class' => 'CrunchySignup\Entity\User' 
