@@ -7,12 +7,11 @@
     "keywords": [
         "zf2", "zfcuser", "user", "signup", "register", "email", "email confirmation"
     ],
-    "homepage": "https://takeid@bitbucket.org/takeid/crunchysignup.git",
+    "homepage": "https://github.com/takeid/crunchysignup.git",
     "authors": [
         {
             "name": "Patrick Sagan",
-            "email": "patryk@takeid.pl",
-            "homepage": "http://www.crunchygroup.com/"
+            "email": "patryk@takeid.pl"
         }
     ],
     "require": {
