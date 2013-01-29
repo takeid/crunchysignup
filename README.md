@@ -71,7 +71,6 @@ module. It adds extra columns to user table like: created_at, updated_at, token,
 * In your module, under the view directory, create the folder tree crunchy-signup/register.
 * Create the necessary override view scripts, depending on which page(s) you want to change:
 e.g.: crunchy-signup/register/register.phtml
-
 * Refer to each built-in view script to see how the form is configured and rendered.
 NOTE: Your module must be loaded after CrunchySignup or the overriding will not work. 
 
