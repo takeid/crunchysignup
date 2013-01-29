@@ -59,7 +59,7 @@ module. It adds extra columns to user table like: created_at, updated_at, token,
 
 
 ### FUTURE UPGRADES (TO-DO)
-* Do it more configurable (**important**)
+* Do it more configurable **(important)**
 * Add Doctrine Adapter
 * Add other mail transports
 
