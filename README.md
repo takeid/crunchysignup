@@ -1,21 +1,21 @@
 ## CrunchySignup
 Version 0.0.1 Created by Patrick Sagan
 
----
-### INTRODUCTION
+
+## INTRODUCTION
 CrunchySignup is a user registration module for Zend Framework 2 which provides
 **email verification functionality during registration process**. It extends [ZfcUser](https://github.com/ZF-Commons/ZfcUser)
 module. It adds extra columns to user table like: created_at, updated_at, token, token_created_at.
 
----
-### REQUIREMENTS
+
+## REQUIREMENTS
 * [Zend Framework 2](https://github.com/zendframework/zf2) (latest master)
 * [ZfcBase](https://github.com/ZF-Commons/ZfcBase) (latest master)
 * [ZfcUser](https://github.com/ZF-Commons/ZfcUser) (latest master)
 
 
----
-### INSTALLATION
+
+## INSTALLATION
 ##### WITH COMPOSER (RECOMMENDED)
 1. Add this project, ZfcUser and ZfcBase in your composer.json:
 
@@ -38,8 +38,8 @@ module. It adds extra columns to user table like: created_at, updated_at, token,
 * Install the ZfcUser ZF2 module by cloning it into ./vendor/.
 * Clone this project into your ./vendor/ directory.
 
----
-### POST INSTALLATION
+
+## POST INSTALLATION
 
 1. apply schema from ./vendor/crunchy/crunchy-signup/data/schema_up.sql
 
@@ -58,13 +58,13 @@ module. It adds extra columns to user table like: created_at, updated_at, token,
 4. Copy CrunchySignup/config/crunchysignup.global.php.dist to ./config/autoload/crunchysignup.global.php 
 
 
-### FUTURE UPGRADES (TO-DO)
+## FUTURE UPGRADES (TO-DO)
 * Do it more configurable **(important)**
 * Add Doctrine Adapter
 * Add other mail transports
 
----
-### KNOW HOW :
+
+## KNOW HOW :
 
 ###  How to override built in view scripts ?
 
