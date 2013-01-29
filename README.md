@@ -1,5 +1,5 @@
 ## CrunchySignup
-Version 0.0.1 Created by Patrick Sagan ([Crunchy Consulting](http://crunchyconsulting.com))
+Version 0.0.1 Created by Patrick Sagan
 
 
 ## INTRODUCTION
