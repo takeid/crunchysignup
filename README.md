@@ -46,7 +46,7 @@ module. It adds extra columns to user table like: created_at, updated_at, token,
 2. Turn on module in ./config/application.config.php file - add 'CrunchySignup'
    (IMPORTANT: Please remember to disable any other register-specific modules)
 
-* Configure zfcuser module in ./config/autoload/zfcuser.global.php  
+3. Configure zfcuser module in ./config/autoload/zfcuser.global.php  
   * 'user_entity_class' => 'CrunchySignup\Entity\User' 
   * 'login_after_registration' => false,
   * 'enable_user_state' => true,
