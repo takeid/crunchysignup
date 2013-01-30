@@ -16,22 +16,23 @@ $settings = array(
     'storage_adapter' => 'ZendDb',
 
     /**
-     * Email Address that will appear in the 'From' of outbound emails
+     * Email Address - 'From' 
      *
      * Default: empty
      */
-    'email_from_address' => 'your_email_address@here.com',
+    'email_from_address' => 'mail@example.com',
 
     /**
-     * Subject line of the email address verification message which is
-     * sent out when a user enters their email address in Step 1
+     * Subject of verification email
      *
      * Default: 'Email Address Verification'
      */
     //'verification_email_subject_line' => 'Email Address Verification',
 
     /**
-     * 
+     * Content of flash message, which is shown after token verification and 
+     * user activation
+     * Default: 'You are fully-registered, you can login now.'
      */
 //    'flash_message_after_verification' => 'You are fully-registered, you can login now.'
 );
