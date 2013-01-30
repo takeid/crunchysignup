@@ -8,7 +8,7 @@
 $settings = array(
 
     /**
-     * Backend storage adapter to use
+     * Storage adapter to use
      *
      * Options: ZendDb only :P
      * Default: ZendDb
