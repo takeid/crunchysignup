@@ -1,5 +1,5 @@
 ## CrunchySignup
-Version 0.0.1 Created by Patrick Sagan ([www.crunchygroup.com](http://crunchygroup.com))
+Version 0.0.1 Created by Patrick Sagan ([zf2dev.com](http://zf2dev.com))
 
 
 ## INTRODUCTION
